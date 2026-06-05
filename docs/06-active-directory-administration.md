@@ -2,17 +2,6 @@
 
 Active Directory administration was validated using both classic and modern Microsoft management tools.
 
-## Administration Tool Flow
-
-```mermaid
-graph LR
-    SERVER[Windows Server 2022] --> TOOLS[Server Manager Tools]
-    TOOLS --> ADUC[Active Directory Users and Computers]
-    TOOLS --> ADAC[Active Directory Administrative Center]
-    ADUC --> OBJECTS[Users Computers Groups OUs]
-    ADAC --> MGMT[Modern AD Management]
-```
-
 ## Active Directory Users and Computers
 
 Navigation path:

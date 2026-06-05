@@ -20,7 +20,7 @@ Build a realistic enterprise infrastructure foundation for:
 
 | File | Purpose |
 | --- | --- |
-| [docs/architecture.md](docs/architecture.md) | Lab topology, network diagrams, and service flow graphs |
+| [docs/architecture.md](docs/architecture.md) | High-level topology and domain deployment flow |
 | [docs/01-virtual-environment.md](docs/01-virtual-environment.md) | VirtualBox VM creation and resource allocation |
 | [docs/02-network-design.md](docs/02-network-design.md) | Internal Network and NAT adapter configuration |
 | [docs/03-domain-controller-deployment.md](docs/03-domain-controller-deployment.md) | Windows Server 2022 setup and AD DS role installation |

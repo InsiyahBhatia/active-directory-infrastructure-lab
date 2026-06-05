@@ -25,20 +25,6 @@ Recommended server preparation:
 - Install Windows updates if required.
 - Confirm Server Manager opens without errors.
 
-## Role Installation Flow
-
-```mermaid
-graph LR
-    A[Open Server Manager] --> B[Manage]
-    B --> C[Add Roles and Features]
-    C --> D[Role-Based Installation]
-    D --> E[Select Local Server]
-    E --> F[Install AD DS]
-    E --> G[Install DNS Server]
-    F --> H[Ready for Domain Promotion]
-    G --> H
-```
-
 ## Installing AD DS and DNS
 
 AD DS and DNS were installed through Server Manager:

@@ -12,19 +12,6 @@ After AD DS was installed, the server was promoted to a domain controller. The l
 | DNS integration | Enabled |
 | Global Catalog | Enabled |
 
-## Promotion Flow
-
-```mermaid
-graph LR
-    A[AD DS Installed] --> B[Promote Server]
-    B --> C[Add a New Forest]
-    C --> D[Set Root Domain corp.local]
-    D --> E[Configure DSRM Password]
-    E --> F[Confirm NetBIOS CORP]
-    F --> G[Run Prerequisite Checks]
-    G --> H[Restart as Domain Controller]
-```
-
 ## Domain Controller Promotion
 
 Promotion path:

@@ -15,17 +15,6 @@ Configuration steps:
 7. Configure Adapter 2 as NAT.
 8. Boot Kali and verify both interfaces.
 
-## Kali Network Flow
-
-```mermaid
-graph LR
-    KALI[Kali Linux] --> INT[Internal Adapter]
-    KALI --> NAT[NAT Adapter]
-    INT --> DC[Windows Server 2022 Domain Controller]
-    NAT --> INTERNET[Internet]
-    DC --> DNS[corp.local DNS]
-```
-
 ## Validation Commands
 
 Basic validation:

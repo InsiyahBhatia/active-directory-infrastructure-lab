@@ -2,14 +2,6 @@
 
 Each VM was configured with two network adapters to separate enterprise lab traffic from internet access.
 
-```mermaid
-graph LR
-    VM[Virtual Machine] --> A1[Adapter 1 Internal Network]
-    VM --> A2[Adapter 2 NAT]
-    A1 --> LAB[Private Enterprise Lab Network]
-    A2 --> NET[Internet Access]
-```
-
 ## Adapter 1: Internal Network
 
 Adapter 1 is used for private enterprise communication between lab machines.

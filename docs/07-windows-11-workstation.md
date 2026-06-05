@@ -14,18 +14,6 @@ Configuration steps:
 6. Configure the network adapters in VirtualBox.
 7. Boot into Windows 11 and verify network interfaces.
 
-## Domain Join Flow
-
-```mermaid
-graph LR
-    WIN11[Windows 11 Workstation] --> DNS[Use Domain Controller as DNS]
-    DNS --> FIND[Locate corp.local]
-    FIND --> CREDS[Enter Domain Admin Credentials]
-    CREDS --> JOIN[Join Domain]
-    JOIN --> REBOOT[Restart Workstation]
-    REBOOT --> LOGIN[Sign in with Domain Account]
-```
-
 ## Network Validation
 
 Network validation command:

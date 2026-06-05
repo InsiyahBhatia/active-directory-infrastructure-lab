@@ -12,17 +12,6 @@ DNS configuration details:
 - Domain controller registered service records in DNS.
 - Internal clients use the domain controller as their DNS server.
 
-## DNS Resolution Flow
-
-```mermaid
-graph LR
-    CLIENT[Windows 11 Client] --> QUERY[DNS Query for corp.local]
-    QUERY --> DNS[DNS Server on Domain Controller]
-    DNS --> ZONE[corp.local Forward Lookup Zone]
-    ZONE --> DC[Domain Controller Records]
-    DC --> CLIENT
-```
-
 ## DNS Validation Steps
 
 1. Open Server Manager.
