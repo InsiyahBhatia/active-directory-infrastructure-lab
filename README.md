@@ -30,7 +30,7 @@ Build a realistic enterprise infrastructure foundation for:
 | [docs/07-windows-11-workstation.md](docs/07-windows-11-workstation.md) | Windows 11 workstation deployment and domain join process |
 | [docs/08-kali-linux-management-vm.md](docs/08-kali-linux-management-vm.md) | Kali Linux installation and network validation |
 | [docs/09-infrastructure-validation.md](docs/09-infrastructure-validation.md) | End-to-end validation checklist and commands |
-| [docs/screenshot-evidence.md](docs/screenshot-evidence.md) | Screenshot references grouped by evidence area |
+| [docs/screenshot-evidence.md](docs/screenshot-evidence.md) | Embedded screenshot evidence grouped by configuration area |
 
 ## Lab Summary
 
