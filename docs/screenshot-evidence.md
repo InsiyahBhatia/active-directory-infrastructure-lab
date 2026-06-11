@@ -2,7 +2,7 @@
 
 Screenshots are stored in the [`../screenshots`](../screenshots) directory.
 
-The screenshots document the lab build process, AD DS deployment, DNS validation, Windows workstation configuration, Kali Linux networking, and Active Directory administration tools.
+The screenshots document the lab build process, AD DS deployment, DNS validation, Windows workstation configuration, Kali Linux networking, Active Directory administration tools, security hardening, and the Mimikatz credential dumping attack.
 
 ## AD DS, DNS, and Domain Validation
 
@@ -117,3 +117,55 @@ The screenshots document the lab build process, AD DS deployment, DNS validation
 ### ADUC Users Container View
 
 ![ADUC users container view](../screenshots/26-aduc-users-container-view.png)
+
+## Phase 1 — Detection and Audit Policy Setup (Domain Controller)
+
+### GPO: Audit Kerberos Service Ticket Operations
+
+![GPO Audit Kerberos Service Ticket Operations](../screenshots/27-gpo-audit-kerberos-service-ticket-operations.png)
+
+### GPO: Audit Kernel Object
+
+![GPO Audit Kernel Object](../screenshots/28-gpo-audit-kernel-object.png)
+
+### GPO: Audit Sensitive Privilege Use
+
+![GPO Audit Sensitive Privilege Use](../screenshots/29-gpo-audit-sensitive-privilege-use.png)
+
+### GPO: Audit Directory Service Changes
+
+![GPO Audit Directory Service Changes](../screenshots/30-gpo-audit-directory-service-changes.png)
+
+### GPO: Audit Account Lockout and Logon
+
+![GPO Audit Account Lockout and Logon](../screenshots/31-gpo-audit-account-lockout-logon.png)
+
+### GPO: Audit Process Creation
+
+![GPO Audit Process Creation](../screenshots/32-gpo-audit-process-creation.png)
+
+### GPO: Audit Kerberos Overview
+
+![GPO Audit Kerberos Overview](../screenshots/33-gpo-audit-kerberos-overview.png)
+
+### Group Policy Update Force
+
+![gpupdate /force success](../screenshots/34-gpupdate-force-success.png)
+
+### GPO: PowerShell Script Block Logging Enabled
+
+![GPO PowerShell Script Block Logging enabled](../screenshots/35-gpo-powershell-script-block-logging-enabled.png)
+
+### GPO: Audit Sensitive Privilege Use Review
+
+![GPO Audit Sensitive Privilege Use review](../screenshots/36-gpo-audit-sensitive-privilege-use-review.png)
+
+## Phase 2 — Mimikatz Attack (from Kali Linux)
+
+### PowerShell: net localgroup administrators
+
+![PowerShell net localgroup administrators](../screenshots/37-powershell-net-localgroup-admins.png)
+
+### NetExec: Pwn3d Admin Access Confirmed
+
+![NetExec Pwn3d admin access](../screenshots/38-netexec-pwn3d-admin-access.png)

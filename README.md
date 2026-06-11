@@ -30,6 +30,8 @@ Build a realistic enterprise infrastructure foundation for:
 | [docs/07-windows-11-workstation.md](docs/07-windows-11-workstation.md) | Windows 11 workstation deployment and domain join process |
 | [docs/08-kali-linux-management-vm.md](docs/08-kali-linux-management-vm.md) | Kali Linux installation and network validation |
 | [docs/09-infrastructure-validation.md](docs/09-infrastructure-validation.md) | End-to-end validation checklist and commands |
+| [docs/10-group-policy-audit-configuration.md](docs/10-group-policy-audit-configuration.md) | Advanced audit policy and PowerShell logging configuration |
+| [docs/11-mimikatz-attack-lateral-movement.md](docs/11-mimikatz-attack-lateral-movement.md) | Mimikatz credential dumping and lateral movement attack |
 | [docs/screenshot-evidence.md](docs/screenshot-evidence.md) | Embedded screenshot evidence grouped by configuration area |
 
 ## Lab Summary
@@ -62,6 +64,11 @@ Build a realistic enterprise infrastructure foundation for:
 | Kali Linux | Linux management and testing system |
 | VirtualBox | Virtualization platform |
 | PowerShell | Windows administration and validation |
+| Group Policy | Domain-wide policy and audit configuration |
+| Advanced Audit Policy | Security event logging and monitoring |
+| NetExec | SMB enumeration and Mimikatz deployment |
+| Mimikatz | Credential dumping and lateral movement |
+| Impacket | Kerberoasting and AD attack tools |
 | Active Directory Users and Computers | User, computer, and group management |
 | Active Directory Administrative Center | Modern AD administration |
 
@@ -74,6 +81,15 @@ Build a realistic enterprise infrastructure foundation for:
 - Windows 11 administration
 - Linux administration
 - PowerShell administration
+- Group Policy management
+- Advanced audit policy configuration
+- Security event logging
+- SMB attack techniques
+- NetExec penetration testing
+- Mimikatz credential dumping
+- Kerberoasting attack techniques
+- Active Directory attack vectors
+- Security detection and hardening
 - VirtualBox virtualization
 - Network architecture design
 - Infrastructure deployment
@@ -84,9 +100,9 @@ Build a realistic enterprise infrastructure foundation for:
 
 This repository can serve as the foundation for future infrastructure and security-focused projects:
 
-- Active Directory attack lab
+- Active Directory attack lab (Mimikatz credential dumping + lateral movement completed)
 - BloodHound enumeration lab
 - Splunk detection lab
 - Sysmon monitoring lab
-- Kerberos security lab
+- Kerberos security lab (Kerberoasting attempted)
 - SOC analyst detection lab
